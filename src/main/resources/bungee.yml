@@ -1,0 +1,4 @@
+name: TrixCore
+main: eu.trixcms.trixcore.bungee.TrixCore
+version: 1.0
+authors: [antoineok, iambluedev]
