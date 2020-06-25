@@ -8,7 +8,7 @@
     <groupId>eu.trixcms.trixcore</groupId>
     <artifactId>bungee</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -47,14 +47,14 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.TrixCMS-V-2</groupId>
+            <groupId>eu.trixcms</groupId>
             <artifactId>trixcore-minecraft-api</artifactId>
-            <version>v1.0.0</version>
+            <version>v1.0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.github.TrixCMS-V-2</groupId>
+            <groupId>eu.trixcms</groupId>
             <artifactId>trixcore-minecraft-common</artifactId>
-            <version>v1.0.1</version>
+            <version>v1.0.2</version>
         </dependency>
     </dependencies>
 
