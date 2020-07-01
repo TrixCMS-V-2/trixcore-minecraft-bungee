@@ -92,6 +92,28 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <relocations combine.children="append">
+                        <relocation>
+                            <pattern>org.eclipse.jetty</pattern>
+                            <shadedPattern>
+                                shaded.org.eclipse.jetty
+                            </shadedPattern>
+                            <includes>
+                                <include>org.eclipse.jetty.**</include>
+                            </includes>
+                        </relocation>
+                        <relocation>
+                            <pattern>javax.servlet</pattern>
+                            <shadedPattern>
+                                shaded.javax.servlet
+                            </shadedPattern>
+                            <includes>
+                                <include>javax.servlet.**</include>
+                            </includes>
+                        </relocation>
+                    </relocations>
+                </configuration>
             </plugin>
         </plugins>
         <finalName>trixcore-bungee</finalName>
