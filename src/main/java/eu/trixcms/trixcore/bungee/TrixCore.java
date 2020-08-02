@@ -1,5 +1,6 @@
 package eu.trixcms.trixcore.bungee;
 
+import com.sun.javafx.font.Metrics;
 import eu.trixcms.trixcore.api.command.ICommandExecutor;
 import eu.trixcms.trixcore.api.config.IConfig;
 import eu.trixcms.trixcore.api.config.exception.InvalidConfigException;
@@ -32,7 +33,6 @@ import java.io.IOException;
 public class TrixCore extends Plugin implements Listener, IConfig, ICommandExecutor<CommandContainer> {
 
     private static final Logger logger = LoggerFactory.getLogger(TrixCore.class);
-    private static final int TRIXCORE_PLUGIN_ID = 6623;
     private static final String CONFIG_FILE_NAME = "config";
 
     @Getter private static TrixCore instance;
@@ -99,7 +99,6 @@ public class TrixCore extends Plugin implements Listener, IConfig, ICommandExecu
             logger.error(translator.of("UNKNOWN_SAVER"), e);
         }
 
-        new Metrics(this, TRIXCORE_PLUGIN_ID);
         getProxy().getPluginManager().registerCommand(this, new TrixCommand(this, translator));
     }
 
