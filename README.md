@@ -3,7 +3,7 @@ TrixCore est un plugin permettant de relier vos serveurs à votre cms ! Cette ve
 
 ## Téléchargement
 
-[TrixCore Bungee v1.0.1](https://github.com/TrixCMS-V-2/trixcore-minecraft-bungee/releases/download/v1.0.1/trixcore-bungee-1.0.1.jar)
+[TrixCore Bungee v1.0.2](https://github.com/TrixCMS-V-2/trixcore-minecraft-bungee/releases/download/v1.0.2/trixcore-bungee-1.0.2.jar)
 
 ## Installation
 
